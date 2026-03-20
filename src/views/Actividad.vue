@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Reto de evaluación del proyecto',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> responder un cuestionario que permita analizar la información financiera, económica, social y ambiental de un proyecto, e interpretar sus indicadores de evaluación para apoyar la toma de decisiones.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,28 +28,29 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el principal objetivo del Valor Presente Neto (VPN)?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Medir el tiempo de recuperación.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Calcular la rentabilidad porcentual.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Determinar el valor actual de los flujos descontados y la creación de valor.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Estimar el nivel de endeudamiento.',
               esCorrecta: false,
             },
           ],
@@ -58,29 +59,28 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+          texto: 'La TIR es aceptable cuando:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Es menor al WACC.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Es igual a cero.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Es mayor al costo de capital (WACC).',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Es negativa.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +89,28 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: 'El PRI permite identificar:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'La rentabilidad porcentual.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'El tiempo necesario para recuperar la inversión.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'El valor social del proyecto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'El impacto ambiental.',
               esCorrecta: false,
             },
           ],
@@ -119,29 +119,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: 'La RBC es favorable cuando:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Es menor que 1.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Es igual a 1.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Es mayor que 1.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Es negativa.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +149,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'El análisis costo-beneficio social busca:',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Medir utilidades privadas.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Evaluar beneficios y costos para la comunidad.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Calcular impuestos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Estimar inflación.',
               esCorrecta: false,
             },
           ],
@@ -180,29 +179,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'El análisis de sensibilidad evalúa:',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Cambios en variables clave.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Impactos legales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Estrategia comercial.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Clima organizacional.',
               esCorrecta: false,
             },
           ],
@@ -211,29 +209,28 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'Una desviación financiera puede reflejar:',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Aumento de ventas.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Sobrecostos no previstos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Mejoras ambientales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Incremento en productividad.',
               esCorrecta: false,
             },
           ],
@@ -243,28 +240,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            'La evaluación integral del proyecto considera principalmente:',
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Solo indicadores financieros.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Aspectos financieros, sociales y ambientales.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Solo impacto social.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Solo cumplimiento legal.',
               esCorrecta: false,
             },
           ],
@@ -273,20 +270,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'El WACC representa:',
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Ganancia neta.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Costo promedio del capital utilizado.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Nivel de ventas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Impacto social.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +300,28 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'Un proyecto con VPN negativo:',
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Genera valor.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Es viable automáticamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Destruye valor económico.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'No requiere análisis.',
               esCorrecta: false,
             },
           ],
@@ -315,20 +330,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'El plan de mejora tiene como propósito:',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Incrementar impuestos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Corregir desviaciones y optimizar resultados.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Cambiar el mercado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar el proyecto.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -336,19 +360,23 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'Opción a)\tSimular contextos optimista y pesimista. X',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Calcular salarios.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Medir clima laboral.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Determinar impuestos.',
               esCorrecta: false,
             },
           ],
@@ -357,19 +385,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'Un impacto social positivo puede ser:',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Contaminación.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Generación de empleo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sobrecostos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Multas.',
               esCorrecta: false,
             },
           ],
@@ -378,20 +415,29 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'El seguimiento del proyecto permite:',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Detectar desviaciones.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Eliminar riesgos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Suspender actividades.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir ventas.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -399,19 +445,178 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'Una acción correctiva se aplica cuando:',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'No hay problemas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Existe una desviación detectada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Hay exceso de utilidades.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El proyecto termina.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: 'La evaluación ambiental busca:',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar ventas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Medir rentabilidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Identificar impactos sobre recursos naturales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir costos financieros.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: 'El concepto de viabilidad global implica:',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Solo rentabilidad financiera.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Evaluación integral del proyecto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Impacto ambiental aislado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cumplimiento parcial.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: 'Un indicador de desempeño financiero puede ser:',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Número de empleados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Margen de utilidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Nivel de satisfacción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Nivel de reciclaje.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: 'Si los beneficios sociales superan los costos sociales:',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El proyecto es socialmente viable.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'El proyecto se descarta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'No se analiza.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Se ignora.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: 'El cronograma del plan de mejora permite:',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Improvisar decisiones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Organizar acciones en el tiempo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir impuestos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar indicadores.',
               esCorrecta: false,
             },
           ],
