@@ -1,9 +1,10 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    Name: 'Evaluación integral y plan de mejora del proyecto',
+    Description:
+      'El componente formativo desarrolla los fundamentos técnicos para el análisis de la viabilidad financiera, económica, social y ambiental de un proyecto. A partir de la interpretación de indicadores y la valoración de resultados, orienta la toma de decisiones y la formulación de acciones de mejora que fortalecen la sostenibilidad y el cumplimiento de los objetivos establecidos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
