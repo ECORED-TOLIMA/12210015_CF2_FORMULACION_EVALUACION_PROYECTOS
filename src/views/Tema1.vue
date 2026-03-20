@@ -191,7 +191,7 @@
               p Según Baca (2022), el #[b Valor Presente Neto (VPN)] constituye uno de los criterios más consistentes para evaluar proyectos, ya que considera el valor del dinero en el tiempo y permite medir la generación de valor económico de una inversión. En consecuencia, este indicador se reconoce como una herramienta clave para apoyar la toma de decisiones financieras.
 
           .row.align-items-start.mt-4
-            .col-lg-2.mb-lg-0.mb-4
+            .col-lg-2.mb-lg-0.mb-4.d-flex.d-none.d-lg-block
               figure(data-aos="fade-down")
                 img(src='@/assets/curso/tema1/11.svg', style='width: 100px, style="margin-left:-11px')
             
@@ -237,6 +237,470 @@
             src='@/assets/curso/tema1/15.svg',
             alt='Figura 1. Etapas de selección de la tasa de descuento. Diagrama en cuatro etapas que muestra el proceso para seleccionar la tasa de descuento: evaluar el costo del capital, considerar el riesgo de la inversión, seleccionar la tasa de descuento y calcular el valor presente neto'
           )
+
+    .row.align-items-center.justify-content-center
+      .col-lg-12
+        .row.justify-content-center.mt-4
+          .col-lg-12(data-aos="fade-down")
+            .row.d-flex.align-items-center(data-aos="fade-right")
+              .col-lg.p-4
+                .cajon.color2.p-4
+                  p En la práctica, el análisis financiero de un proyecto suele apoyarse en herramientas informáticas que facilitan el procesamiento y la interpretación de la información económica. Entre estas herramientas, #[b Excel] es ampliamente utilizado para organizar los flujos de caja proyectados, realizar cálculos financieros y analizar los resultados obtenidos durante la evaluación de una iniciativa de inversión.
+
+                p.mt-4 Su utilización permite sistematizar los datos, efectuar los cálculos de manera ágil y disminuir la posibilidad de errores durante el proceso de análisis. De esta forma, el uso de herramientas tecnológicas contribuye a fortalecer la toma de decisiones financieras, ya que permite estimar con mayor claridad la rentabilidad del proyecto y valorar su conveniencia económica.             
+                
+              .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                figure.m-0.p-0.w-100.h-100.d-flex
+                  img(src='@/assets/curso/tema1/16.png', alt='', class="w-100 h-100 object-fit-cover")
+
+    .titulo-tres.mt-4(data-aos="fade-left"): h3 Aplicación del valor presente neto en Excel
+
+    p.mt-4 Para facilitar la comprensión del cálculo del #[b Valor Presente Neto (VPN)], se empleará una herramienta tecnológica que permite aplicar este procedimiento de manera práctica. Mediante el uso de #[b Excel], es posible organizar los flujos de caja proyectados y utilizar funciones financieras que permiten estimar el valor actual de los ingresos futuros del proyecto. A continuación, se describen los pasos principales que permiten realizar este cálculo en la herramienta, organizados en una secuencia que orienta el procedimiento de manera clara y estructurada.
+    
+    .row.justify-content-center.mt-4
+      .col-lg-auto
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-2")
+
+          //- Tarjeta 1----------------------------------------------------------------------
+          .tarjeta.clr--pink02.p-4(titulo="A. Organizar los flujos de caja del proyecto")
+            .row.align-items-center
+              .col-lg-12(data-aos="fade-down")
+                .row.d-flex.align-items-center(data-aos="fade-right")
+                  .col-lg-5
+                    p El primer paso consiste en registrar en #[b Excel] los #[b flujos de caja proyectados del proyecto]. Para ello, se debe elaborar una tabla que incluya el #[b Año 0], correspondiente a la inversión inicial, y los valores estimados para los años posteriores.
+
+                    p La organización de estos datos permite aplicar posteriormente la función financiera para calcular el valor presente de los ingresos futuros.
+
+                  .col-lg-7.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                    figure.m-0.p-0.w-100.h-100.d-flex
+                      img(src='@/assets/curso/tema1/17.png', alt='', class="w-100 h-100 object-fit-cover")
+          
+          //- Tarjeta 2----------------------------------------------------------------------
+          .tarjeta.clr--pink02.p-4(titulo="B. Seleccionar la función financiera en Excel")
+            .row.align-items-center
+              .col-lg-12(data-aos="fade-down")
+                .row.d-flex.align-items-center(data-aos="fade-right")
+                  .col-lg-5
+                    p Una vez registrados los flujos de caja, se procede a utilizar la función financiera que permite calcular el #[b Valor Presente Neto].
+
+                    p.mb-0 Para ello se realizan los siguientes pasos en #[b Excel]:
+                    p.mb-0 Ubicar el cursor en una celda vacía.
+                    p.mb-0 Ir a la pestaña #[b Fórmulas].
+                    p.mb-0 Seleccionar la categoría #[b Financieras].
+                    p Hacer clic en la función #[b VNA (Valor Neto Actual)].
+
+                    p Esta función permite calcular el valor actual de los flujos de caja futuros del proyecto.
+                    
+                  .col-lg-7.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                    figure.m-0.p-0.w-100.h-100.d-flex
+                      img(src='@/assets/curso/tema1/18.png', alt='', class="w-100 h-100 object-fit-cover")
+          
+          //- Tarjeta 3----------------------------------------------------------------------
+          .tarjeta.clr--pink02.p-4(titulo="C. Ingresar los argumentos de la función")
+            .row.align-items-center
+              .col-lg-12(data-aos="fade-down")
+                .row.d-flex.align-items-center(data-aos="fade-right")
+                  .col-lg-5
+                    p Al seleccionar la función #[b VNA, Excel] solicita completar los datos necesarios para realizar el cálculo:
+                    
+                    p.mb-0 #[b Tasa]: corresponde a la tasa de descuento utilizada para evaluar el proyecto (por ejemplo, 12 %).
+                    p.mb-0 #[b Valor 1]: corresponde al rango de celdas donde se encuentran los flujos de caja desde el Año 1 hasta el último año del proyecto.
+                    p #[b Valor 2]: se utiliza de forma opcional cuando existen rangos adicionales de valores.
+
+                    p El ingreso correcto de estos datos permite estimar el valor presente de los ingresos futuros.
+                    
+                  .col-lg-7.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                    figure.m-0.p-0.w-100.h-100.d-flex
+                      img(src='@/assets/curso/tema1/19.png', alt='', class="w-100 h-100 object-fit-cover")
+          
+          //- Tarjeta 4----------------------------------------------------------------------
+          .tarjeta.clr--pink02.p-4(titulo="D. Incluir la inversión inicial en el cálculo")
+            .row.align-items-center
+              .col-lg-12(data-aos="fade-down")
+                .row.d-flex.align-items-center(data-aos="fade-right")
+                  .col-lg-5
+                    p La función #[b VNA] calcula el valor presente de los flujos de caja desde el #[b Año 1 en adelante], por lo que #[b no incluye la inversión inicial (Año 0)]. Por esta razón, dicho valor debe agregarse manualmente en la fórmula.
+                    
+                    p.mb-0 Ejemplo en #[b Excel]:
+                    p #[b =VNA (12 %; B3:B6) +B2]
+
+                    p Donde #[b 12 %] corresponde a la tasa de descuento, #[b B3:B6] contiene los flujos de caja proyectados y #[b B2] representa la inversión inicial. Este cálculo permite obtener el #[b Valor Presente Neto del proyecto] y analizar si la inversión genera valor económico.
+
+                  .col-lg-7.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                    figure.m-0.p-0.w-100.h-100.d-flex
+                      img(src='@/assets/curso/tema1/20.png', alt='', class="w-100 h-100 object-fit-cover")
+
+
+    .row.align-items-center.justify-content-center.mt-4
+      p Una vez calculado el #[b Valor Presente Neto], es posible complementar la evaluación financiera con otro indicador clave: la #[b Tasa Interna de Retorno (TIR)]. Este indicador estima la rentabilidad del proyecto en términos porcentuales y permite comparar su desempeño frente al #[b costo de capital (WACC)]. En el siguiente apartado se presenta el procedimiento para calcular la #[b TIR] en #[b Excel], mediante una secuencia de pasos que orienta el uso de la función financiera correspondiente, junto con reglas básicas que aseguran el registro correcto de los flujos de caja y la interpretación del resultado.
+      .col-lg-12
+        SlyderF(columnas="col-lg-6 col-xl-4")
+          //-Primer Slyder--------------------------------------------------
+          .tarjeta.bg-61.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema1/21.svg', alt='').img100.m-auto
+            p.text-center.mb-0 
+              b Ubicar una celda para el resultado
+            p.text-center Seleccionar una celda vacía en la hoja de Excel donde se mostrará el resultado del cálculo.
+
+          //-Segundo Slyder--------------------------------------------------
+          .tarjeta.bg-61.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema1/22.svg', alt='').img100.m-auto
+            p.text-center.mb-0 
+              b Seleccionar la función financiera
+            p.text-center Ir a la pestaña fórmulas, elegir la categoría financieras y seleccionar la función TIR.
+            
+          //-Tercer Slyder--------------------------------------------------
+          .tarjeta.bg-61.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema1/23.svg', alt='').img100.m-auto
+            p.text-center.mb-0 
+              b Ingresar los flujos de caja
+            p.text-center En el campo valores, seleccionar el rango que contiene todos los flujos de caja del proyecto, incluyendo el Año 0, que corresponde a la inversión inicial.
+
+          //-Cuarto Slyder--------------------------------------------------
+          .tarjeta.bg-61.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema1/24.svg', alt='').img100.m-auto
+            p.text-center.mb-0 
+              b Confirmar el cálculo
+            p.text-center Hacer clic en aceptar para que Excel realice el cálculo automáticamente.
+
+
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        .row.align-items-center
+          .col-lg-12
+            .cajon.color1.p-4
+              p Excel devolverá la Tasa Interna de Retorno expresada en porcentaje, indicador que permite estimar la rentabilidad del proyecto. Cuando la TIR es mayor que el costo de capital (WACC), el proyecto se considera financieramente viable.
+
+        .titulo-tres.mt-5: h3 Reglas importantes para el cálculo
+        
+        ol.lista-ol--cuadro.lista-ol--separador.mt-3
+          li 
+            .lista-ol--cuadro__vineta
+              span.text-black 1
+            | El VPN requiere definir previamente una tasa de descuento.
+          li 
+            .lista-ol--cuadro__vineta
+              span.text-black 2
+            | La TIR se calcula directamente a partir de los flujos de caja, sin requerir una tasa externa.
+          li 
+            .lista-ol--cuadro__vineta
+              span.text-black 3
+            | El Año 0 debe registrarse siempre como un valor negativo, ya que representa la inversión inicial.
+          li 
+            .lista-ol--cuadro__vineta
+              span.text-black 4
+            | En el cálculo del VPN, la inversión inicial se suma manualmente al resultado de la función.
+          li 
+            .lista-ol--cuadro__vineta
+              span.text-black 4
+            | En el cálculo de la TIR, se deben incluir todos los flujos de caja, desde el Año 0 hasta el último periodo del proyecto.
+
+    separador
+    #t_1_3.titulo-segundo.color-acento-contenido
+      h2 1.3. Recuperación de la inversión y costo de capital
+  
+    .row.bg-07.p-md-5.mt-0
+      .row.align-items-center.justify-content-center.p-4
+        .col-lg-12
+          .row.align-items-center.justify-content-center
+            .col-lg-12(data-aos="fade-down")
+              .row.d-flex.align-items-center(data-aos="fade-right")
+                .col-lg-5.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                  figure.m-0.p-0.w-100.h-100.d-flex
+                    img(src='@/assets/curso/tema1/25.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                .col-lg
+                  p Dentro del análisis de viabilidad financiera de un proyecto se emplean diversos indicadores que permiten comprender el comportamiento de la inversión y los riesgos asociados a su ejecución. Además de los indicadores que miden directamente la creación de valor y la rentabilidad, existen otros instrumentos que aportan información complementaria para fortalecer la toma de decisiones. Entre ellos se encuentran el periodo de recuperación de la inversión, la relación entre beneficios y costos y el costo de capital, los cuales permiten analizar aspectos como el tiempo requerido para recuperar los recursos invertidos, la eficiencia en el uso de los recursos financieros y la rentabilidad mínima que debe generar el proyecto para compensar el riesgo asumido. En conjunto, estos elementos facilitan una visión más integral de la evaluación financiera, contribuyendo a determinar si una iniciativa de inversión es sostenible y coherente con los objetivos económicos del proyecto.
+
+          .row.align-items-start.mt-4
+            .col-lg-1.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+              figure(data-aos="fade-down")
+                img(src='@/assets/curso/tema1/26.svg', style='width: 100px; margin-left: -10px')
+            
+            .col
+              p Con el propósito de facilitar la comprensión de estos indicadores dentro del proceso de evaluación financiera, a continuación, se presentan sus principales características, las cuales sintetizan los aspectos conceptuales más relevantes relacionados con la recuperación de la inversión, la relación entre beneficios y costos y la tasa mínima de rendimiento del proyecto. Estos elementos permiten interpretar su utilidad en el análisis de la viabilidad financiera y fortalecer la toma de decisiones estratégicas en el desarrollo de proyectos:
+
+    SlyderA.p-4.bg-04.bg-r8(tipo="b").mt-4
+      //-Tarjeta 1--------------------------------------------------------
+      .row.justify-content-center.align-items-center
+        .col-lg-7.mb-4.mb-lg-0
+          h4.text-white Recuperación de la inversión
+           
+          .row.align-items-center.mt-4
+            .col-lg-auto.mb-lg-0.margin-li
+              ul.lista-ul--color.p-4.text-white
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Permite identificar el tiempo necesario para recuperar el capital inicialmente invertido.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Se calcula a partir de los flujos netos de caja generados durante la operación del proyecto.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Facilita analizar la rapidez con la que el proyecto devuelve los recursos invertidos.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Resulta útil cuando los inversionistas priorizan liquidez y retorno rápido del capital.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 No considera el valor del dinero en el tiempo ni los flujos generados después del momento de recuperación.
+                  
+        .col-lg-5.d-flex.d-none.d-lg-block
+          figure(data-aos="fade-down")
+            img(src='@/assets/curso/tema1/27.svg', style='width: 572px')
+    
+      //-Tarjeta 2--------------------------------------------------------
+      .row.justify-content-center.align-items-center
+        .col-lg-7.mb-4.mb-lg-0
+          h4.text-white Utilidad del análisis del tiempo de recuperación
+          
+          .row.align-items-center.mt-4
+            .col-lg-auto.mb-lg-0.margin-li
+              ul.lista-ul--color.p-4.text-white
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Permite evaluar el nivel de riesgo asociado a la recuperación del capital.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Facilita identificar proyectos que recuperan la inversión en menor tiempo.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Apoya la toma de decisiones cuando existen limitaciones de recursos financieros.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Permite comparar diferentes alternativas de inversión según su rapidez de retorno.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Debe analizarse junto con otros indicadores financieros para obtener una evaluación más completa.
+                  
+          
+        .col-lg-5.d-flex.d-none.d-lg-block
+          figure(data-aos="fade-down")
+            img(src='@/assets/curso/tema1/28.svg', style='width: 572px')
+
+      //-Tarjeta 3--------------------------------------------------------
+      .row.justify-content-center.align-items-center
+        .col-lg-7.mb-4.mb-lg-0
+          h4.text-white Relación entre beneficios y costos
+          
+          .row.align-items-center.mt-4
+            .col-lg-auto.mb-lg-0.margin-li
+              ul.lista-ul--color.p-4.text-white
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Compara el valor actual de los beneficios frente al valor actual de los costos del proyecto.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Permite determinar la eficiencia económica de la inversión realizada.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Expresa cuántas unidades monetarias se generan por cada unidad invertida.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Facilita analizar si los beneficios justifican los recursos utilizados.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Es ampliamente utilizada para evaluar la conveniencia financiera de proyectos.
+
+        .col-lg-5.d-flex.d-none.d-lg-block
+          figure(data-aos="fade-down")
+            img(src='@/assets/curso/tema1/29.svg', style='width: 572px')
+
+      //-Tarjeta 4--------------------------------------------------------
+      .row.justify-content-center.align-items-center
+        .col-lg-7.mb-4.mb-lg-0
+          h4.text-white Interpretación de la relación beneficio–costo
+          
+          .row.align-items-center.mt-4
+            .col-lg-auto.mb-lg-0.margin-li
+              ul.lista-ul--color.p-4.text-white
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Cuando el resultado es mayor que uno, los beneficios superan los costos.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Cuando el resultado es igual a uno, los beneficios y costos son equivalentes.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Cuando el resultado es menor que uno, el proyecto no resulta financieramente conveniente.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Permite identificar proyectos con mayor eficiencia en el uso de los recursos.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Complementa el análisis realizado con otros indicadores financieros del proyecto.
+          
+        .col-lg-5.d-flex.d-none.d-lg-block
+          figure(data-aos="fade-down")
+            img(src='@/assets/curso/tema1/30.svg', style='width: 572px')
+            
+      //-Tarjeta 5--------------------------------------------------------
+      .row.justify-content-center.align-items-center
+        .col-lg-7.mb-4.mb-lg-0
+          h4.text-white Rentabilidad mínima requerida del proyecto
+
+          .row.align-items-center.mt-4
+            .col-lg-auto.mb-lg-0.margin-li
+              ul.lista-ul--color.p-4.text-white
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Representa la tasa mínima de rendimiento que debe generar la inversión.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Compensa el riesgo asumido por quienes aportan los recursos financieros.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Integra el costo de los recursos obtenidos mediante deuda y el capital propio.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Funciona como referencia para evaluar si el proyecto cumple con la rentabilidad esperada.
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Permite determinar si los resultados financieros superan la rentabilidad exigida por los inversionistas.
+          
+        .col-lg-5.d-flex.d-none.d-lg-block
+          figure(data-aos="fade-down")
+            img(src='@/assets/curso/tema1/31.svg', style='width: 572px')
+
+    p.mt-4 El análisis de la #[b relación entre beneficios y costos] permite valorar de manera clara la eficiencia económica de una inversión, al comparar los recursos que se destinan al proyecto con los beneficios que este puede generar a lo largo del tiempo. Este indicador facilita interpretar si los resultados esperados justifican la utilización de los recursos financieros, constituyéndose en un elemento de apoyo para la toma de decisiones dentro del proceso de evaluación de proyectos. De esta manera, su aplicación contribuye a seleccionar alternativas que optimicen el uso de los recursos disponibles y favorezcan la viabilidad financiera del proyecto.
+
+    .titulo-tres.mt-4(data-aos="fade-left"): h3 Cálculo del periodo de recuperación, razón beneficio-costo y costo de capital
+
+    .bloque-texto-g.bg-61.p-3.p-sm-4.p-md-5.mt-4
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/32.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 El periodo de recuperación de la inversión, la relación beneficio–costo y el costo de capital son indicadores utilizados en la evaluación financiera de proyectos. Estos permiten analizar el tiempo necesario para recuperar la inversión inicial, comparar los beneficios obtenidos frente a los costos del proyecto y determinar la rentabilidad mínima que debe alcanzarse para compensar el riesgo asociado a los recursos financieros invertidos. En conjunto, estos indicadores aportan información complementaria para fortalecer el análisis de la viabilidad financiera y apoyar la toma de decisiones en la formulación y evaluación de proyectos.
+
+    p.mt-4 A continuación, se presentan los pasos a seguir para calcular estos indicadores mediante el uso de herramientas de hoja de cálculo, facilitando su aplicación en el análisis financiero de proyectos.
+
+    .row.justify-content-center.mt-4
+      .col-lg-auto
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-2")
+
+          //- Tarjeta 1----------------------------------------------------------------------
+          .tarjeta.clr--pink02.p-4(titulo="A. Recuperación de la inversión en Excel")
+            .row.align-items-center
+              .col-lg-12(data-aos="fade-down")
+                .row.d-flex.align-items-center(data-aos="fade-right")
+                  .col-lg-7
+                    p El periodo de recuperación de la inversión indica el tiempo necesario para recuperar el capital inicialmente invertido a partir de los flujos netos de caja del proyecto. En su forma simple, este indicador no considera el valor del dinero en el tiempo, ya que únicamente acumula los flujos generados hasta cubrir el monto invertido.
+                    
+                    p #[b Pasos de cálculo] 
+
+                    .row.align-items-center.mt-0
+                      .col-lg-auto.mb-lg-0
+                        ul.lista-ul--color
+                          li
+                            i.lista-ul__vineta
+                            p.mb-0 Paso 1. Organizar los datos.
+                          li
+                            p.mb-0 Registrar la inversión inicial (Año 0) en negativo y los flujos de caja proyectados para cada año.
+                          li
+                            i.lista-ul__vineta
+                            p.mb-0 Paso 2. Calcular el flujo acumulado.
+                          li
+                            p.mb-0 Sumar progresivamente los flujos en una nueva columna.
+
+                    p.mt-0 Ejemplo en Excel: #[b =B2+B3]
+
+                    ul.lista-ul--color
+                      li
+                        i.lista-ul__vineta
+                        p.mb-0 Paso 3. Identificar el año de recuperación.
+                      li
+                        p.mb-0 Determinar el año en el que el flujo acumulado sea igual o mayor que cero.
+                    
+                  .col-lg-5.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                    figure.m-0.p-0.w-100.h-100.d-flex
+                      img(src='@/assets/curso/tema1/33.png', alt='', class="w-100 h-100 object-fit-cover")
+          
+          //- Tarjeta 2----------------------------------------------------------------------
+          .tarjeta.clr--pink02.p-4(titulo="B. Relación beneficio–costo en Excel")
+            .row.align-items-center
+              .col-lg-12(data-aos="fade-down")
+                .row.d-flex.align-items-center(data-aos="fade-right")
+                  .col-lg-7
+                    p La relación beneficio–costo permite comparar el valor presente de los beneficios con el valor presente de los costos del proyecto, con el fin de evaluar si los beneficios generados justifican la inversión realizada.
+
+                    p #[b Pasos de cálculo] 
+
+                    .row.align-items-center.mt-0
+                      .col-lg-auto.mb-lg-0
+                        ul.lista-ul--color
+                          li
+                            i.lista-ul__vineta
+                            p.mb-0 Paso 1. Registrar los datos
+                          li
+                            p.mb-0 Organizar los ingresos y los costos proyectados para cada periodo del proyecto.
+                          li
+                            i.lista-ul__vineta
+                            p.mb-0 Paso 2. Calcular valores presentes
+                          li
+                            p.mb-0 Actualizar los beneficios y los costos mediante la función de Excel:
+
+                    p.mb-0 =VNA (tasa; rango beneficios)
+                    p.mt-0 =VNA (tasa; rango costos)
+
+                    ul.lista-ul--color
+                      li
+                        i.lista-ul__vineta
+                        p.mb-0 Paso 3. Identificar el año de recuperación.
+                      li
+                        p.mt-0 Dividir el valor presente de beneficios entre el valor presente de costos.
+
+                  .col-lg-5.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                    figure.m-0.p-0.w-100.h-100.d-flex
+                      img(src='@/assets/curso/tema1/34.png', alt='', class="w-100 h-100 object-fit-cover")
+          
+          //- Tarjeta 3----------------------------------------------------------------------
+          .tarjeta.clr--pink02.p-4(titulo="C. Costo de capital en Excel")
+            .row.align-items-center
+              .col-lg-12(data-aos="fade-down")
+                .row.d-flex.align-items-center(data-aos="fade-right")
+                  .col-lg-7
+                    p El costo de capital representa la tasa mínima de rendimiento que debe generar el proyecto para compensar el riesgo asociado a los recursos financieros utilizados. Generalmente se calcula mediante el costo promedio ponderado del capital, el cual integra el costo de la deuda y el costo del patrimonio propio de acuerdo con su participación dentro de la estructura financiera.
+                    
+                    p.mb-0 Fórmula base
+                    p.mt-0 #[b WACC = (E/V × Ke) + (D/V × Kd × (1 − T))]
+
+                    p #[b Pasos de cálculo] 
+
+                    .row.align-items-center.mt-0
+                      .col-lg-auto.mb-lg-0
+                        ul.lista-ul--color
+                          li
+                            i.lista-ul__vineta
+                            p.mb-0 Paso 1. Registrar los datos
+                          li
+                            p.mb-0 Capital propio (E), deuda (D), costo del capital propio (Ke), costo de la deuda (Kd) y tasa de impuestos (T).
+                          li
+                            i.lista-ul__vineta
+                            p.mb-0 Paso 2. Calcular el total financiado
+                          li
+                            p.mb-0 Determinar el valor total financiado mediante: #[b V = E + D]
+
+                    ul.lista-ul--color
+                      li
+                        i.lista-ul__vineta
+                        p.mb-0 Paso 3. Aplicar la fórmula
+                      li
+                        p.mt-0 Calcular el costo promedio ponderado del capital mediante la expresión: #[b =(E/V)*Ke + (D/V)*Kd*(1-T)]
+                    
+                  .col-lg-5.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                    figure.m-0.p-0.w-100.h-100.d-flex
+                      img(src='@/assets/curso/tema1/35.png', alt='', class="w-100 h-100 object-fit-cover")
+          
+
+
 
 </template>
 
