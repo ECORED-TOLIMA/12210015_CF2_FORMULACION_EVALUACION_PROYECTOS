@@ -360,22 +360,27 @@ export default {
         },
         {
           id: 12,
-          texto: 'Opción a)\tSimular contextos optimista y pesimista. X',
+          texto: 'El análisis de escenarios permite:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
+              texto: 'Simular contextos optimista y pesimista.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
               texto: 'Calcular salarios.',
               esCorrecta: false,
             },
             {
-              id: 'b',
+              id: 'c',
               texto: 'Medir clima laboral.',
               esCorrecta: false,
             },
             {
-              id: 'c',
+              id: 'd',
               texto: 'Determinar impuestos.',
               esCorrecta: false,
             },

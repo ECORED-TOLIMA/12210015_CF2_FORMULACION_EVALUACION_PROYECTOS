@@ -181,16 +181,16 @@
                 
                     p.mt-3 La aplicación del Valor Presente Neto (VPN) y la Tasa Interna de Retorno (TIR) constituye uno de los pasos más relevantes dentro de la evaluación financiera de proyectos, ya que ambos indicadores permiten determinar si una inversión genera valor económico. El VPN calcula el valor actual de los flujos de caja futuros descontados a una tasa determinada, comparándolos con la inversión inicial. Por su parte, la TIR representa la tasa de rendimiento que iguala los ingresos y egresos del proyecto, es decir, la rentabilidad porcentual que este genera. Debido a su capacidad para medir creación de valor y rentabilidad, estos dos indicadores son considerados los más importantes dentro del análisis financiero.
 
-    p.mt-4 Desde el punto de vista técnico, el VPN permite establecer en términos monetarios cuánto valor adicional produce el proyecto después de recuperar la inversión y cubrir el costo del capital. Si el resultado es positivo, significa que la iniciativa genera riqueza para el inversionista. En contraste, la TIR facilita la comparación entre distintas alternativas de inversión, ya que expresa la rentabilidad en términos porcentuales.
+    p.mt-3 Desde el punto de vista técnico, el VPN permite establecer en términos monetarios cuánto valor adicional produce el proyecto después de recuperar la inversión y cubrir el costo del capital. Si el resultado es positivo, significa que la iniciativa genera riqueza para el inversionista. En contraste, la TIR facilita la comparación entre distintas alternativas de inversión, ya que expresa la rentabilidad en términos porcentuales.
 
-    .row.justify-content-center.mt-4
+    .row.justify-content-center.mt-2
       .col-lg-10
         .row.align-items-center
           .col-lg-12
             .cajon.color1.p-4
               p Según Baca (2022), el #[b Valor Presente Neto (VPN)] constituye uno de los criterios más consistentes para evaluar proyectos, ya que considera el valor del dinero en el tiempo y permite medir la generación de valor económico de una inversión. En consecuencia, este indicador se reconoce como una herramienta clave para apoyar la toma de decisiones financieras.
 
-          .row.align-items-start.mt-4
+          .row.align-items-start.mt-3
             .col-lg-2.mb-lg-0.mb-4.d-flex.d-none.d-lg-block
               figure(data-aos="fade-down")
                 img(src='@/assets/curso/tema1/11.svg', style='width: 100px, style="margin-left:-11px')
@@ -198,7 +198,7 @@
             .col
               p No obstante, la interpretación de estos indicadores debe realizarse de manera complementaria y no de forma aislada. Un proyecto puede presentar una TIR elevada, pero si su VPN es bajo en términos absolutos o si existen diferencias significativas en los montos de inversión entre alternativas, la decisión de inversión podría variar. En consecuencia, la aplicación conjunta del VPN y la TIR permite fortalecer el análisis financiero, reducir la incertidumbre y fundamentar decisiones estratégicas orientadas a la sostenibilidad y competitividad del proyecto.
 
-    .titulo-tres.mt-4(data-aos="fade-left"): h3 Cálculo del Valor Presente Neto (VPN) y la Tasa Interna de Retorno (TIR)
+    .titulo-tres.mt-3(data-aos="fade-left"): h3 Cálculo del Valor Presente Neto (VPN) y la Tasa Interna de Retorno (TIR)
 
     p.mt-4 El cálculo del valor presente neto (VPN) se realiza descontando los flujos de caja futuros del proyecto a una tasa que refleje el costo del capital o la rentabilidad mínima exigida por los inversionistas. La fórmula general consiste en sumar los flujos de caja actualizados y restar la inversión inicial. Si el resultado es mayor que cero, el proyecto genera valor; si es igual a cero, apenas cubre el costo del capital; y si es negativo, destruye valor económico.
 
@@ -259,7 +259,7 @@
     
     .row.justify-content-center.mt-4
       .col-lg-auto
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-2")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-8")
 
           //- Tarjeta 1----------------------------------------------------------------------
           .tarjeta.clr--pink02.p-4(titulo="A. Organizar los flujos de caja del proyecto")
@@ -284,10 +284,21 @@
                     p Una vez registrados los flujos de caja, se procede a utilizar la función financiera que permite calcular el #[b Valor Presente Neto].
 
                     p.mb-0 Para ello se realizan los siguientes pasos en #[b Excel]:
-                    p.mb-0 Ubicar el cursor en una celda vacía.
-                    p.mb-0 Ir a la pestaña #[b Fórmulas].
-                    p.mb-0 Seleccionar la categoría #[b Financieras].
-                    p Hacer clic en la función #[b VNA (Valor Neto Actual)].
+                    .row.align-items-center.mt-4
+                      .col-lg-12.mb-lg-0
+                        ul.lista-ul--color
+                          li
+                            i.lista-ul__vineta
+                            p.mb-0 Ubicar el cursor en una celda vacía.
+                          li
+                            i.lista-ul__vineta
+                            p.mb-0 Ir a la pestaña #[b Fórmulas].
+                          li
+                            i.lista-ul__vineta
+                            p.mb-0 Seleccionar la categoría #[b Financieras].
+                          li
+                            i.lista-ul__vineta
+                            p.mb-0 Hacer clic en la función #[b VNA (Valor Neto Actual)].
 
                     p Esta función permite calcular el valor actual de los flujos de caja futuros del proyecto.
                     

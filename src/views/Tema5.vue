@@ -190,7 +190,7 @@
                 figure(data-aos="fade-down")
                   img(src='@/assets/curso/tema5/13.svg', style='width: 100px; margin-left:-11px')
               .col
-                p.mt-4 El objetivo no es revisar cada componente de manera aislada, sino comprender cómo interactúan entre sí y qué implicaciones tienen en conjunto.
+                p.mt-4 Estos indicadores pueden expresarse en valores absolutos, porcentajes o razones, permitiendo evaluar el avance del proyecto de manera objetiva y sistemática.
 
           .cajon.color1.p-4.mt-4
             p Un sistema de indicadores bien estructurado fortalece la transparencia y mejora la capacidad de respuesta ante posibles desviaciones. Cuando se detectan diferencias significativas entre los resultados esperados y los obtenidos, los responsables del proyecto pueden implementar acciones correctivas o preventivas. En este sentido, los indicadores de desempeño no solo miden resultados, sino que también orientan a la mejora continua y contribuyen a garantizar la sostenibilidad y eficiencia del proyecto en el tiempo.
@@ -349,7 +349,7 @@
             figure.m-0.p-0.w-100.h-100.d-flex
               img(src='@/assets/curso/tema5/20.png', alt='', class="w-100 h-100 object-fit-cover")
 
-    .titulo-tres.mt-5: h3 Pasos para formular el plan de acción
+    .titulo-tres.mt-5: h3 Pasos para evaluar resultados frente a objetivos
     
     .row.align-items-center.justify-content-center.mt-4
       .col-lg-12

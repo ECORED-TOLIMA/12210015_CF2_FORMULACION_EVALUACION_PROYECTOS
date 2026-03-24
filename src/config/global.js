@@ -219,47 +219,47 @@ export default {
   ],
   glosario: [
     {
-      termino: '<strong>Análisis de sensibilidad:</strong>',
+      termino: '<strong>Análisis de sensibilidad</strong>',
       significado:
         'herramienta que evalúa cómo cambian los resultados del proyecto cuando se modifican variables clave como ventas, costos o tasas.',
     },
     {
-      termino: '<strong>Evaluación integral:</strong>',
+      termino: '<strong>Evaluación integral</strong>',
       significado:
         'proceso que integra resultados financieros, económicos, sociales y ambientales para determinar la viabilidad global del proyecto.',
     },
     {
-      termino: '<strong>Impacto social:</strong>',
+      termino: '<strong>Impacto social</strong>',
       significado:
         'efectos positivos o negativos que el proyecto genera en la comunidad, tales como empleo, calidad de vida o acceso a servicios.',
     },
     {
-      termino: '<strong>Indicadores de desempeño:</strong>',
+      termino: '<strong>Indicadores de desempeño</strong>',
       significado:
         'herramientas de medición que permiten evaluar el cumplimiento de objetivos financieros, operativos, sociales y ambientales.',
     },
     {
-      termino: '<strong>Periodo de Recuperación (PRI):</strong>',
+      termino: '<strong>Periodo de Recuperación (PRI)</strong>',
       significado:
         'tiempo necesario para recuperar la inversión inicial a partir de los flujos netos de caja generados por el proyecto.',
     },
     {
-      termino: '<strong>Plan de mejora:</strong>',
+      termino: '<strong>Plan de mejora</strong>',
       significado:
         'conjunto de acciones correctivas y preventivas diseñadas para optimizar el desempeño del proyecto y corregir desviaciones.',
     },
     {
-      termino: '<strong>Razón Beneficio Costo (RBC):</strong>',
+      termino: '<strong>Razón Beneficio Costo (RBC)</strong>',
       significado:
         'relación entre el valor presente de los beneficios y el valor presente de los costos. si es mayor que uno, el proyecto es viable financieramente.',
     },
     {
-      termino: '<strong>Tasa Interna de Retorno (TIR):</strong>',
+      termino: '<strong>Tasa Interna de Retorno (TIR)</strong>',
       significado:
         'tasa de rentabilidad que iguala el valor presente de los ingresos con el de los egresos del proyecto. se utiliza para comparar la rentabilidad con el costo de capital.',
     },
     {
-      termino: '<strong>Valor Presente Neto (VPN):</strong>',
+      termino: '<strong>Valor Presente Neto (VPN)</strong>',
       significado:
         'indicador financiero que calcula el valor actual de los flujos de caja futuros descontados a una tasa determinada, restando la inversión inicial. si es positivo, el proyecto genera valor.',
     },
@@ -331,14 +331,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo:
+            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Diana Rocío Possos Beltrán',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -346,9 +347,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Gustavo Ernesto Mariño Puentes',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Gloria Lida Alzate Suárez',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -356,19 +362,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Juan Daniel Polanco Muñoz',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Manuel Felipe Echavarria Orozco',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -376,14 +382,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jorge Bustos Gómez',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },

@@ -102,7 +102,7 @@
 
     .row.justify-content-center.mt-4
       .col-lg-12
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-2")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-8")
 
           //- Tarjeta 1----------------------------------------------------------------------
           .tarjeta.clr--pink02.p-4(titulo="A. Componente financiero")
@@ -219,7 +219,7 @@
       h2 4.2. Análisis de escenarios y sensibilidad
     
     .row.align-items-center.justify-content-center
-      .col-lg-10
+      .col-lg-12
         .row.justify-content-center.mt-4
           .col-lg-12(data-aos="fade-down")
             .row.d-flex.align-items-center(data-aos="fade-right")
@@ -230,9 +230,10 @@
                 p El análisis de escenarios y sensibilidad permite evaluar cómo pueden variar los resultados del proyecto ante cambios en las variables clave que influyen en su desempeño. Ninguna proyección financiera es completamente segura, ya que depende de supuestos relacionados con precios, costos, demanda, tasas de interés o crecimiento del mercado. Por esta razón, es necesario simular distintos contextos posibles optimista, probable y pesimista para anticipar el comportamiento del proyecto bajo diferentes condiciones.
                 p El análisis de sensibilidad se enfoca en modificar una variable específica, manteniendo las demás constantes, con el fin de identificar qué tan vulnerable es el proyecto ante variaciones en esa variable. Por ejemplo, puede analizarse cómo cambia el VPN si disminuyen las ventas en un 10 % o si aumentan los costos operativos. Este ejercicio permite determinar cuáles factores tienen mayor impacto en la rentabilidad y, por tanto, requieren mayor control o monitoreo durante la ejecución.
         
-
-            .cajon.color1.p-4.mt-4
-              p La evaluación de escenarios complementa este análisis al combinar variaciones simultáneas en varias variables, construyendo panoramas integrales de riesgo. Este enfoque fortalece la toma de decisiones, ya que permite identificar el nivel de resistencia del proyecto frente a condiciones adversas. En consecuencia, el análisis de escenarios y sensibilidad se convierte en una herramienta estratégica para gestionar la incertidumbre, reducir riesgos y ajustar el proyecto antes de comprometer recursos de manera definitiva.
+    .row.align-items-center.justify-content-center
+      .col-lg-10
+        .cajon.color1.p-4.mt-4
+          p La evaluación de escenarios complementa este análisis al combinar variaciones simultáneas en varias variables, construyendo panoramas integrales de riesgo. Este enfoque fortalece la toma de decisiones, ya que permite identificar el nivel de resistencia del proyecto frente a condiciones adversas. En consecuencia, el análisis de escenarios y sensibilidad se convierte en una herramienta estratégica para gestionar la incertidumbre, reducir riesgos y ajustar el proyecto antes de comprometer recursos de manera definitiva.
 
     separador
     #t_4_3.titulo-segundo.color-acento-contenido
@@ -315,23 +316,6 @@
                     p.mb-0 #[b Descarte del proyecto]
                     p.mt-2 El proyecto no se ejecuta cuando los riesgos, costos o impactos superan los beneficios previstos.
 
-    .row.justify-content-center.py-4
-      .col-lg-6.d-none.d-lg-block
-        figure(data-aos="fade-up")
-          img(src='@/assets/curso/tema4/17.png', alt='', style="width: 100%").m-auto
-      .col-lg-6
-        LineaTiempoD.color-primario.linea-bold
-          .row(numero="1" titulo="Ejecución del proyecto")
-            .col-md-12.mb-4.mb-md-0
-              p El proyecto se desarrolla en las condiciones propuestas cuando los resultados del análisis indican que es viable y genera beneficios esperados.
-
-          .row(numero="2" titulo="Ajuste del proyecto")
-            .col-md-12.mb-4.mb-md-0
-              p La iniciativa se modifica o mejora cuando se identifican aspectos que requieren optimización para alcanzar mejores resultados.
-    
-          .row(numero="3" titulo="Descarte del proyecto")
-            .col-md-12.mb-4.mb-md-0
-              p El proyecto no se ejecuta cuando los riesgos, costos o impactos superan los beneficios previstos.
 
     .row.justify-content-center.py-4
       .col-lg-10

@@ -77,7 +77,7 @@
 
 
                   .cajon.color1.p-4
-                    p La evaluación financiera del proyecto constituye una etapa determinante dentro del proceso de análisis integral, ya que permite establecer si la iniciativa formulada genera resultados económicos suficientes para justificar la inversión realizada. En esta fase se integran las proyecciones construidas en el estudio de mercado, el estudio técnico y el estudio organizacional, transformando la información técnica en indicadores cuantitativos que facilitan la toma de decisiones. A través de la evaluación financiera se determina la capacidad del proyecto para generar utilidades, recuperar la inversión y sostenerse en el tiempo.
+                    p En este análisis se distinguen diferentes tipos de impactos, entre ellos los efectos económicos directos e indirectos, así como las externalidades que pueden presentarse durante la ejecución del proyecto. Esta organización facilita identificar cómo una iniciativa puede contribuir al desarrollo regional, a la generación de bienestar social y a la dinamización de las actividades económicas, al tiempo que permite reconocer posibles riesgos o efectos adversos asociados a su implementación.
                     
               .col-lg-5.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
