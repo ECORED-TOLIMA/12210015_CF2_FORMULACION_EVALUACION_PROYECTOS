@@ -148,8 +148,8 @@
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema5/7.png',  style='width: 396px').m-auto
     
-            .col-lg-8.p-2
-              SlyderF(columnas="col-lg-6 col-xl-4")
+            .col-lg-8.p-5
+              SlyderF.p-4(columnas="col-lg-6 col-xl-4")
                 .tarjeta.bg-9.p-4
                   .row.justify-content-center.mb-3
                     .col-8
