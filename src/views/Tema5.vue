@@ -47,7 +47,7 @@
                                 .tarjeta.h-100
 
                                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                                  texto="Podcast Instruccional"
+                                  texto="Monitorear y evaluar el avance del proyecto"
                                   :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
                                 )
 

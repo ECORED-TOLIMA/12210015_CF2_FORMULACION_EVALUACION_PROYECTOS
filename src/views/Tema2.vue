@@ -96,7 +96,7 @@
                 th(style="width: 300px;") Componente
                 th ¿Qué analiza?
                 th Ejemplos de impacto
-                th Ejemplo práctico
+                th ¿Por qué es importante?
             tbody
               tr(style="background-color: #F6F6F6")
                 th.text-start Impacto Económico Directo.

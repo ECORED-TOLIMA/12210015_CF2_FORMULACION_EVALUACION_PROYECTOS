@@ -44,7 +44,7 @@
           .col-lg-12
             .titulo-sexto.color-acento-contenido.mb-3.mt-4
               h5 Tabla 3.
-              span Componentes de la evaluación económica y social del proyecto
+              span Evaluación ambiental del proyecto
 
             .tabla-a.color-acento-contenido
               table

@@ -252,7 +252,7 @@
                 th Acción de mejora
                 th Responsable
                 th Tiempo
-                th Tiempo
+                th Indicador
 
             tbody
               tr(style="background-color: #F6F6F6 !important;")

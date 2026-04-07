@@ -147,7 +147,7 @@ export default {
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Plan de mejora',
+        titulo: 'Plan de mejora del proyecto',
         desarrolloContenidos: true,
         subMenu: [
           {
